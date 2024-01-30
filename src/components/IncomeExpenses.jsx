@@ -20,7 +20,7 @@ function IncomeExpenses() {
 
   return (
     <div className="flex justify-between w-full h-20">
-      <div className="w-[45%] bg-green-500 border-2 border-green-700 rounded-lg flex justify-center items-center gap-5">
+      <div className="w-[48%] bg-green-500 border-2 border-green-700 rounded-lg flex justify-center items-center gap-5 max-[440px]:gap-2">
        <div>
         <img src={arrowupicon} alt="" />
        </div>
@@ -30,7 +30,7 @@ function IncomeExpenses() {
           <p>$ {income}</p>
         </div>
       </div>
-      <div className="w-[45%] bg-red-500 border-2 border-red-700 rounded-lg flex justify-center items-center gap-5">
+      <div className="w-[48%] bg-red-500 border-2 border-red-700 rounded-lg flex justify-center items-center gap-5 max-[440px]:gap-2">
         <div className="">
           <img src={arrowdownicon} alt="" />
         </div>

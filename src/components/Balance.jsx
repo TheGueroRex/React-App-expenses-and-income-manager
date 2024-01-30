@@ -9,7 +9,7 @@ function Balance() {
   const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
 
   return (
-    <div className="bg-indigo-500 border-2 border-indigo-700 w-full h-20 rounded-lg flex justify-center items-center gap-5">
+    <div className="bg-indigo-500 border-2 border-indigo-700 w-full h-20 rounded-lg flex justify-center items-center gap-5 max-[440px]:gap-2">
       {/* {JSON.stringify(amounts, null, 2)} */}
       <div>
         <img src={chartlogo} alt="" />
